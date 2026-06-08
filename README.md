@@ -94,4 +94,4 @@ HTTP Error 429: Too Many Requests. Please slow down!
   For advanced multi-key transactional checks (such as keeping a user's separate login throttling metrics and payment throttling metrics synchronized on the exact same physical database server), the architecture implements Hash Tags by wrapping identifiers in curly braces (e.g., rate:{alex}:login). This forces Redis to evaluate only the encapsulated text, ensuring the keys hash to the same physical node slot for local, hyper-fast execution blocks.
 
 
-![image.png](../../Desktop/image.png)
+![image.png](src/main/resources/static/image.png)
